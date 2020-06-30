@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+	char ch;
+	printf("input char : ");
+	scanf("%c", &ch);
+
+	if (ch >= 'A' && ch <= 'Z') {
+		printf("ch : %c --- big letter\n", ch);
+		
+	}
+
+	return 0;
+}
