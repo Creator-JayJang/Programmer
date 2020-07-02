@@ -1,0 +1,13 @@
+﻿  array_01.c
+C:\Users\user\source\repos\Day003\Array_02\array_01.c(48,18): error C2086: 'int i': 재정의
+C:\Users\user\source\repos\Day003\Array_02\array_01.c(48): message : 'i' 선언을 참조하십시오.
+C:\Users\user\source\repos\Day003\Array_02\array_01.c(48,20): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
+C:\Users\user\source\repos\Day003\Array_02\array_01.c(48,20): error C2143: 구문 오류: ')'이(가) '<' 앞에 없습니다.
+C:\Users\user\source\repos\Day003\Array_02\array_01.c(48,26): error C2065: 'i': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\Day003\Array_02\array_01.c(48,29): error C2059: 구문 오류: ')'
+C:\Users\user\source\repos\Day003\Array_02\array_01.c(49,24): error C2065: 'i': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\Day003\Array_02\array_01.c(50,22): error C2065: 'i': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\Day003\Array_02\array_01.c(54,28): error C2143: 구문 오류: ')'이(가) ';' 앞에 없습니다.
+C:\Users\user\source\repos\Day003\Array_02\array_01.c(54,29): error C2059: 구문 오류: ')'
+C:\Users\user\source\repos\Day003\Array_02\array_01.c(55,19): error C2065: 'i': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\Day003\Array_02\array_01.c(55,34): error C2065: 'i': 선언되지 않은 식별자입니다.

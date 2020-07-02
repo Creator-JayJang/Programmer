@@ -1,0 +1,4 @@
+﻿  if_05.c
+C:\c_language\source\Day002_1\control_6\if_05.c(24,8): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+C:\c_language\source\Day002_1\control_6\if_05.c(24,8): message : 서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+  control_6.vcxproj -> C:\c_language\source\Day002_1\Debug\control_6.exe

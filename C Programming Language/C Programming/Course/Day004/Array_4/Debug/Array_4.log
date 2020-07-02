@@ -1,0 +1,2 @@
+﻿  array_4.c
+C:\c_language\source\Day004\Array_4\array_4.c(14,1): error C2075: 'data': 배열 초기화에는 중괄호로 묶인 이니셜라이저 목록이 필요합니다.

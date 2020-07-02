@@ -1,0 +1,2 @@
+﻿  prime.c
+C:\Users\user\source\repos\Day003\Exam_17\prime.c(21): error C4700: 초기화되지 않은 'number' 지역 변수를 사용했습니다.

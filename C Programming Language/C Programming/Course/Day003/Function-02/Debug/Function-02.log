@@ -1,0 +1,6 @@
+﻿  fnc_2.c
+C:\Users\user\source\repos\Day003\Function-02\fnc_2.c(20,8): error C2198: 'adder': 호출에 인수가 너무 적습니다.
+C:\Users\user\source\repos\Day003\Function-02\fnc_2.c(24,6): error C2371: 'adder': 재정의. 기본 형식이 다릅니다.
+C:\Users\user\source\repos\Day003\Function-02\fnc_2.c(16): message : 'adder' 선언을 참조하십시오.
+C:\Users\user\source\repos\Day003\Function-02\fnc_2.c(42,26): error C2449: 파일 범위에 '{'가 있습니다. 함수 헤더가 없는 것 같습니다.
+C:\Users\user\source\repos\Day003\Function-02\fnc_2.c(44,1): error C2059: 구문 오류: '}'

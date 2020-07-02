@@ -1,0 +1,5 @@
+﻿  coffee_2.c
+C:\c_language\source\Day005\Coffee_2\coffee_2.c(87,4): error C2181: if와 짝을 이루지 않는 잘못된 else문입니다.
+C:\c_language\source\Day005\Coffee_2\coffee_2.c(107,4): error C2181: if와 짝을 이루지 않는 잘못된 else문입니다.
+C:\c_language\source\Day005\Coffee_2\coffee_2.c(109,4): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+C:\c_language\source\Day005\Coffee_2\coffee_2.c(11): fatal error C1075: '{': 일치하는 토큰을 찾을 수 없습니다.

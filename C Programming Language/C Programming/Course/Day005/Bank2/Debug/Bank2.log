@@ -1,0 +1,6 @@
+﻿  bank.c
+C:\c_language\source\Day005\Bank2\bank.c(36,14): warning C4474: 'scanf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\c_language\source\Day005\Bank2\bank.c(36,14): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+C:\c_language\source\Day005\Bank2\bank.c(26,10): warning C4101: 'balance' :참조되지 않은 지역 변수입니다.
+C:\c_language\source\Day005\Bank2\bank.c(26,6): warning C4101: 'id' :참조되지 않은 지역 변수입니다.
+  Bank2.vcxproj -> C:\c_language\source\Day005\Debug\Bank2.exe

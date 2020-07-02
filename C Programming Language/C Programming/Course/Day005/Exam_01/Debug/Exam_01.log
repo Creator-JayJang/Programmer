@@ -1,0 +1,3 @@
+﻿  Exam_01.c
+C:\c_language\source\Day005\Exam_01\Exam_01.c(15,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+  Exam_01.vcxproj -> C:\c_language\source\Day005\Debug\Exam_01.exe

@@ -1,0 +1,4 @@
+﻿  prime.c
+C:\c_language\source\Day004\Prime\prime.c(16,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+C:\c_language\source\Day004\Prime\prime.c(15,6): warning C4101: 'num' :참조되지 않은 지역 변수입니다.
+  Prime.vcxproj -> C:\c_language\source\Day004\Debug\Prime.exe

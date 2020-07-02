@@ -1,0 +1,6 @@
+﻿  sturct_3.c
+C:\c_language\source\Day006\Struct_4\sturct_3.c(37,6): warning C4101: 'y' :참조되지 않은 지역 변수입니다.
+C:\c_language\source\Day006\Struct_4\sturct_3.c(36,6): warning C4101: 'x' :참조되지 않은 지역 변수입니다.
+C:\c_language\source\Day006\Struct_4\sturct_3.c(30,9): warning C4101: 'ac' :참조되지 않은 지역 변수입니다.
+C:\c_language\source\Day006\Struct_4\sturct_3.c(33,9): warning C4101: 'area' :참조되지 않은 지역 변수입니다.
+  Struct_4.vcxproj -> C:\c_language\source\Day006\Debug\Struct_4.exe

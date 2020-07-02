@@ -1,0 +1,4 @@
+﻿  pointer_4.c
+C:\c_language\source\Day004\Pointer_4\pointer_4.c(9,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+C:\c_language\source\Day004\Pointer_4\pointer_4.c(11,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+  Pointer_4.vcxproj -> C:\c_language\source\Day004\Debug\Pointer_4.exe

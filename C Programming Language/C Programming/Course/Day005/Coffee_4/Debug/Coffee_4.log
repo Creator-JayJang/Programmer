@@ -1,0 +1,8 @@
+﻿  coffee_4.c
+C:\c_language\source\Day005\Coffee_4\coffee_4.c(18,14): warning C4013: 'product'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\c_language\source\Day005\Coffee_4\coffee_4.c(20,8): warning C4013: 'prinf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\c_language\source\Day005\Coffee_4\coffee_4.c(58,6): error C2371: 'product': 재정의. 기본 형식이 다릅니다.
+C:\c_language\source\Day005\Coffee_4\coffee_4.c(61,11): warning C4098: 'product': 'void' 함수에서 값을 반환하고 있습니다.
+C:\c_language\source\Day005\Coffee_4\coffee_4.c(65,10): warning C4098: 'product': 'void' 함수에서 값을 반환하고 있습니다.
+C:\c_language\source\Day005\Coffee_4\coffee_4.c(67,1): error C2059: 구문 오류: '}'
+C:\c_language\source\Day005\Coffee_4\coffee_4.c(109,1): fatal error C1004: 예기치 않은 파일의 끝이 나타났습니다.

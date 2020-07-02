@@ -1,0 +1,4 @@
+﻿  Struct_2.c
+C:\c_language\source\Day006\Struct_2\Struct_2.c(17,8): warning C4101: 'p' :참조되지 않은 지역 변수입니다.
+C:\c_language\source\Day006\Struct_2\Struct_2.c(15,8): warning C4101: 'third' :참조되지 않은 지역 변수입니다.
+  Struct_2.vcxproj -> C:\c_language\source\Day006\Debug\Struct_2.exe
