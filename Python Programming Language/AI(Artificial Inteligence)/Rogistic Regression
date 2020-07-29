@@ -1,0 +1,45 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# List of Study Hour X and Score Y
+data = [[2, 0], [4, 0], [6, 0], [8, 1], [10, 1], [12, 1], [14, 1]]
+
+x_data = [i[0] for i in data]
+y_data = [i[1] for i in data]
+
+# Graph
+plt.scatter(x_data, y_data)
+plt.xlim(0, 15)
+plt.ylim(-.1, 1.1)
+
+# reset slope a and intercept b
+a = 0
+b = 0
+
+# Rate of Learning
+lr = 0.05
+
+# Define Sigmoid Function
+def sigmoid(x):
+    return 1 / (1+np.e ** (-x))
+
+# Gradient Discent Method
+for i in range(2001):
+    for x_data, y_data in data:
+        a_diff = x_data*(sigmoid(a*x_data + b) - y_data)
+        b_diff = sigmoid(a*x_data + b) - y_data
+        a = a - lr * a_diff
+        b = b - lr * b_diff
+
+        # Repeat 1000, output a,b of x_data
+        if i % 1000 == 0:
+            print("epoch=%.f, slope=%.04f, intercept=%.04f" % (i, a, b))
+
+# Graph
+plt.scatter(x_data, y_data)
+plt.xlim(0, 15)
+plt.ylim(-.1, 1.1)
+x_range = (np.arange(0, 15, 0.1))   # Range of value x for graph
+plt.plot(np.arange(0, 15, 0.1), np.array([sigmoid(a*x + b) for x in x_range]))
+plt.show()
+

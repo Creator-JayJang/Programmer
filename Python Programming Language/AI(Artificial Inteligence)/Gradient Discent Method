@@ -1,0 +1,44 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# X and Y List
+data = [[2, 81], [4, 93], [6, 91], [8, 97]]
+x = [i[0] for i in data]
+y = [i[1] for i in data]
+
+# Graph
+plt.figure(figsize=(8,5))
+plt.scatter(x, y)
+plt.show()
+
+# List to Numpy array
+x_data = np.array(x)
+y_data = np.array(y)
+
+# Reset value
+a = 0
+b = 0
+
+# Rate of Learning
+lr = 0.03
+
+# How repeat this argorithm
+epochs = 2001
+
+
+# Gradient Discent Method
+for i in range(epochs):
+    y_hat = a * x_data +b       # equ for y
+    error = y_data - y_hat      # error
+    a_diff = -(2/len(x_data)) * sum(x_data * (error))   # Differential error Function by a
+    b_diff = -(2/len(x_data)) * sum(error)      # Differential error Function by b
+    a = a - lr * a_diff         # Update a value
+    b = b - lr * b_diff
+    if i % 100 == 0:
+        print("epoch=%.f, slope=%.04f, intercept=%.04f" % (i, a, b))
+
+# Graph
+y_pred = a * x_data + b
+plt.scatter(x, y)
+plt.plot([min(x_data), max(x_data)], [min(y_pred), max(y_pred)])
+plt.show()
